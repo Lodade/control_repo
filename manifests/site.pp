@@ -4,6 +4,6 @@ node default {
   }
   file {'/root/testing.txt':
     ensure => present,
-    contents => "I appeared :)",
+    content => "I appeared :)",
   }
 }
